@@ -1089,6 +1089,10 @@ require("lazy").setup({
 			vim.keymap.set("n", "<leader>gs", vim.cmd.Git)
 		end,
 	},
+	{
+		"christoomey/vim-tmux-navigator",
+		lazy = false,
+	},
 }, {
 	ui = {
 		-- If you are using a Nerd Font: set icons to an empty table which will use the
